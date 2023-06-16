@@ -1,0 +1,29 @@
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  width: 100%;
+}
+.resultItemsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.title {
+  margin-left: 80px;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+}
+.image {
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+.domainUrl {
+  margin-left: 20px;
+  color: #64748b;
+}
